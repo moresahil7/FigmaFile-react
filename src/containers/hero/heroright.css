@@ -1,0 +1,128 @@
+.heroright_container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* color: #000000; */
+  background: #fcfcfc;
+  height: 17.5rem;
+  width:24rem;
+  padding: 1.5rem;
+  overflow-y: scroll;
+  background: #FCFCFC;
+  box-shadow: 0px 0px 4px rgba(183, 183, 183, 0.25);
+  border-radius: 12px 12px 0px 0px;
+  
+  
+}
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+  }
+ 
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(3, 119, 235, 0.7);
+    border-radius: 10px;
+    background-clip: content-box; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.heroright_heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 1rem;
+}
+.heroright_heading h2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+/* identical to box height */
+  color: #292929;
+  margin-right: 1.5rem;
+}
+.heroright_heading h4 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #0377EB;
+  margin-right: 1rem;
+
+}
+.heroright_heading svg {
+  font-size: 16px;
+  color: #0377EB;
+}
+
+.heroright_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 2rem;
+}
+
+.image{
+    /* height: 100%; */
+    /* width: 100%; */
+}
+
+.image img{
+    width: 113px;
+    height: 78px;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 4px rgba(183, 183, 183, 0.25));
+    border-radius: 12px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h2{
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+/* identical to box height */
+
+  
+   color: #292929;
+}
+
+.content p{
+  
+font-family: var(--font-family);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #525252;
+}
