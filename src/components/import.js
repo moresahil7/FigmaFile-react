@@ -1,7 +1,0 @@
-export {default as Navbar} from './navbar/Navbar'
-export {default as Hero} from './herosection/Hero'
-export {default as Trending} from './trinstitutes/Trending'
-export {default as Nearby} from './nearinstitutes/Nearby'
-export {default as Topin} from './topinsti/Topin'
-export {default as Featured} from './featured/Featured'
-export {default as Degree} from './degreecourses/Degree'
